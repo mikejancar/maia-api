@@ -3,7 +3,7 @@ const express = require('express');
 const nba = require('nba');
 
 const app = express();
-const port = 2016;
+const port = process.env.PORT || 2016;
 
 app.get('/nba/players/:playername', (request, response) => {
   let player = nba.findPlayer(request.params.playername);
