@@ -1,0 +1,27 @@
+{
+  "name": "maia-api",
+  "version": "1.0.0",
+  "description": "The node.js backend to the maia Alexa client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikejancar/maia-node-api.git"
+  },
+  "keywords": [
+    "alexa",
+    "nba"
+  ],
+  "author": "Michael Jancar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikejancar/maia-node-api/issues"
+  },
+  "homepage": "https://github.com/mikejancar/maia-node-api#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "nba": "^3.2.4"
+  }
+}
