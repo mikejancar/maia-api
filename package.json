@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The node.js backend to the maia Alexa client",
   "main": "server.js",
+  "engines": {
+    "node": ">=6.9.1"
+  },
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
